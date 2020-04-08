@@ -1,9 +1,9 @@
 # E-Commerce
 
 
-E commerce app like souq.com  B2B B2C business and Admin Panal in one App 
+# E commerce app like souq.com  B2B B2C business and Admin Panal in one App 
 
-using MVC Design patern
+Using MVC Design patern
 
 Firebase Database, 
 RealTime Firbase, 
@@ -29,6 +29,7 @@ Screen Shots
 <img src="images/Screenshot_20200408-164745.png" width="150" hight="20">,
 <img src="images/Screenshot_20200408-171101.png" width="150" hight="20">,
 <img src="images/Screenshot_20200408-171110.png" width="150" hight="20">
+
 
 
 # User View 
@@ -58,6 +59,7 @@ Screen Shots
 <img src="images/user/Screenshot_20200408-172534.png" width="150" hight="20">
 
 
+
 # Admin View
 
 <img src="images/admin/Screenshot_20200408-171005.png" width="150" hight="20">,
@@ -69,6 +71,7 @@ Screen Shots
 <img src="images/admin/Screenshot_20200408-171251.png" width="150" hight="20">,
 <img src="images/admin/Screenshot_20200408-171257.png" width="150" hight="20">,
 <img src="images/admin/Screenshot_20200408-172542.png" width="150" hight="20">,
+
 
 
 # Seller View 
