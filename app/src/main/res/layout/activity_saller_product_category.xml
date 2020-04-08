@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sellers.SellerProductCategoryActivity">
+
+    <TextView
+        android:id="@+id/login_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="Add New Product"
+        android:textAlignment="center"
+        android:textSize="26sp"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:id="@+id/linear1_category_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/login_category"
+        android:gravity="center"
+        android:layout_marginTop="45dp"
+        android:layout_centerHorizontal="true">
+
+
+        <!--  Todo make this recycler view with abilty to add category for Admin-->
+
+        <ImageView
+            android:id="@+id/t_shirts"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:onClick="onClick"
+            android:src="@drawable/tshirts" />
+
+        <ImageView
+            android:id="@+id/sports_shirts"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:onClick="onClick"
+            android:src="@drawable/sports" />
+
+        <ImageView
+            android:id="@+id/female_dresses"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:onClick="onClick"
+            android:src="@drawable/female_dresses" />
+
+        <ImageView
+            android:id="@+id/sweathers"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:onClick="onClick"
+            android:src="@drawable/sweather" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear2_category_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/linear1_category_layout"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true">
+
+
+        <!--  Todo make this recycler view with abilty to add category for Admin-->
+
+        <ImageView
+            android:id="@+id/glasses"
+            android:layout_width="85dp"
+            android:layout_height="80dp"
+            android:onClick="onClick"
+            android:src="@drawable/glasses" />
+
+        <ImageView
+            android:id="@+id/purses_bags_wallets"
+            android:layout_width="85dp"
+            android:layout_height="80dp"
+            android:onClick="onClick"
+            android:src="@drawable/purses_bags" />
+
+        <ImageView
+            android:id="@+id/hats"
+            android:layout_width="85dp"
+            android:layout_height="80dp"
+            android:onClick="onClick"
+            android:src="@drawable/hats" />
+
+        <ImageView
+            android:id="@+id/shoes"
+            android:layout_width="85dp"
+            android:layout_height="80dp"
+            android:onClick="onClick"
+            android:src="@drawable/shoess" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear3_category_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/linear2_category_layout"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true">
+
+
+        <!--  Todo make this recycler view with abilty to add category for Admin-->
+
+        <ImageView
+            android:id="@+id/headphoness_handfree"
+            android:layout_width="85dp"
+            android:layout_height="80dp"
+            android:onClick="onClick"
+            android:src="@drawable/headphoness" />
+
+        <ImageView
+            android:id="@+id/laptop_pc"
+            android:layout_width="85dp"
+            android:layout_height="80dp"
+            android:onClick="onClick"
+            android:src="@drawable/laptops" />
+
+        <ImageView
+            android:id="@+id/watches"
+            android:layout_width="85dp"
+            android:layout_height="80dp"
+            android:onClick="onClick"
+            android:src="@drawable/watches" />
+
+        <ImageView
+            android:id="@+id/mobilphones"
+            android:layout_width="85dp"
+            android:layout_height="80dp"
+            android:onClick="onClick"
+            android:src="@drawable/mobiles" />
+
+
+    </LinearLayout>
+
+<!--    <Button
+        android:id="@+id/check_orders_btn"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_above="@id/admin_logout_btn"
+        android:background="@color/colorPrimaryDark"
+        android:text="Check New Orders"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        />
+
+    <Button
+        android:id="@+id/admin_logout_btn"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="15dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="LogOut"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        />
+
+    <Button
+        android:id="@+id/maintain_btn"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="15dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="Maintain Product"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        android:layout_above="@id/check_orders_btn"
+        />-->
+</RelativeLayout>
